@@ -15,33 +15,36 @@
 </head>
 <body>
 
-    // Alert (브라우저 기본 메세지)
+    <h1>Component test</h1>
+    <br>
+    <h4>Alert (브라우저 기본 메세지)</h4>
     <div class="alert alert-primary" role="alert">
         A simple primary alert—check it out!
-      </div>
-      <div class="alert alert-secondary" role="alert">
+    </div>
+    <div class="alert alert-secondary" role="alert">
         A simple secondary alert—check it out!
-      </div>
-      <div class="alert alert-success" role="alert">
+    </div>
+    <div class="alert alert-success" role="alert">
         A simple success alert—check it out!
-      </div>
-      <div class="alert alert-danger" role="alert">
+    </div>
+    <div class="alert alert-danger" role="alert">
         A simple danger alert—check it out!
-      </div>
-      <div class="alert alert-warning" role="alert">
+    </div>
+    <div class="alert alert-warning" role="alert">
         A simple warning alert—check it out!
-      </div>
-      <div class="alert alert-info" role="alert">
+    </div>
+    <div class="alert alert-info" role="alert">
         A simple info alert—check it out!
-      </div>
-      <div class="alert alert-light" role="alert">
+    </div>
+    <div class="alert alert-light" role="alert">
         A simple light alert—check it out!
-      </div>
-      <div class="alert alert-dark" role="alert">
+    </div>
+    <div class="alert alert-dark" role="alert">
         A simple dark alert—check it out!
-      </div>
+    </div>
 
-    // Badge (ex. "NEW")
+    <br><br>
+    <h4>Badge (ex. "NEW")</h4>
     <h1>Example heading <span class="badge bg-secondary">New</span></h1>
     <h2>Example heading <span class="badge bg-secondary">New</span></h2>
     <h3>Example heading <span class="badge bg-secondary">New</span></h3>
@@ -49,20 +52,19 @@
     <h5>Example heading <span class="badge bg-secondary">New</span></h5>
     <h6>Example heading <span class="badge bg-secondary">New</span></h6>
 
-    // BreadCrumb (경로알려주기)
+    <br><br>
+    <h4>BreadCrumb (경로알려주기)</h4>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item active" aria-current="page">Home</li>
         </ol>
-    </nav>
-      
+    </nav>      
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Library</li>
         </ol>
-    </nav>
-      
+    </nav>      
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -71,7 +73,8 @@
         </ol>
     </nav>
 
-    // Card (ex. 제품설명 / 이미지 + text(script) )
+    <br><br>
+    <h4>Card (ex. 제품설명 / 이미지 + text(script) )</h4>
     <div class="row">    
         <div class="col-md-4">
             <div class="card" style="width: 18rem;">
@@ -124,7 +127,8 @@
 
     -->
 
-    // Carousel2 (이미지 슬라이드)
+    <br><br>
+    <h4>Carousel2 (이미지 슬라이드)</h4>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -147,7 +151,8 @@
         </a>
     </div>
 
-    // Collapse (ex. Q&A)
+    <br><br>
+    <h4>Collapse (ex. Q&A)</h4>
     <p>
     <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Link with href
@@ -163,7 +168,8 @@
         </div>
     </div>
 
-    // Accordian (아코디언 / collapse에서 파생)
+    <br><br>
+    <h4>Accordian (아코디언 / collapse에서 파생)</h4>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -203,8 +209,11 @@
         </div>
     </div>
    
-    //Dropdown (ex. "<select>", "#Combobox")
-    <!-- Example single danger button -->
+
+    <br><br>
+    <h4>Dropdown1 (ex. "select", "#Combobox")</h4>    
+    <br>
+  
     <div class="btn-group">
         <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             Action
@@ -216,10 +225,28 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Separated link</a></li>
         </ul>
+    </div> 
+
+
+    <br><br>
+    <h4>Dropdown2 (single)</h4>
+    <br>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
     </div>
 
-    //Dropdown2 (Split)
-    <!-- Example split danger button -->
+    <br><br>
+    <h4>Dropdown3 (Split)</h4>
+    <br>
+
     <div class="btn-group">
         <button type="button" class="btn btn-danger">Action</button>
         <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
@@ -234,16 +261,17 @@
         </ul>
     </div>
 
-    // Forms 카테고리
-    // Forms/Form control 
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
+    <br><br>
+    <h4>ListGroup (...)</h4>
+    <br>
+
+    <ul class="list-group">
+        <li class="list-group-item active" aria-current="true">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
 
 </body>
 </html>
